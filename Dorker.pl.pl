@@ -8,7 +8,7 @@ $ag = LWP::UserAgent->new();
 $ag->agent("Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3) Gecko/20010801");
 $ag->timeout(10);
 system('cls');
-print color("white"),
+print color("yellow"),
  "'########:'####:'##::: ##:'########:::::'###::::'##:::::::'##:::'##::::::'########:'##::: ##:
 ... ##..::. ##:: ###:: ##: ##.... ##:::'## ##::: ##:::::::. ##:'##:::::::... ##..:: ###:: ##:
 ::: ##::::: ##:: ####: ##: ##:::: ##::'##:. ##:: ##::::::::. ####::::::::::: ##:::: ####: ##:
@@ -17,7 +17,7 @@ print color("white"),
 ::: ##::::: ##:: ##:. ###: ##:::: ##: ##.... ##: ##:::::::::: ##::::'###:::: ##:::: ##:. ###:
 ::: ##::::'####: ##::. ##: ########:: ##:::: ##: ########:::: ##:::: ###:::: ##:::: ##::. ##:
 :::..:::::....::..::::..::........:::..:::::..::........:::::..:::::...:::::..:::::..::::..:: \n";
-print color("yellow"), "[1] Bing Dorker     |> Here any  Country t7eb  \n";
+print color("white"), "[1] Bing Dorker     |> Here any  Country t7eb  \n";
 print color("red"), "[2] Bing Dorker    |> Here I Will Grab Using Ur Dork World Wide Country Websites\n";
 print color("yellow"), "[3] Mass Site Grab |> By Ip or Websites List\n";
 print color("red"), "[4] Mass Site Grab |> Range Ip by Ip or Website list\n";
