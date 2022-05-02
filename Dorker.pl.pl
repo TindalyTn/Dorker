@@ -17,7 +17,7 @@ print color("yellow"),
 ::: ##::::: ##:: ##:. ###: ##:::: ##: ##.... ##: ##:::::::::: ##::::'###:::: ##:::: ##:. ###:
 ::: ##::::'####: ##::. ##: ########:: ##:::: ##: ########:::: ##:::: ###:::: ##:::: ##::. ##:
 :::..:::::....::..::::..::........:::..:::::..::........:::::..:::::...:::::..:::::..::::..:: \n";
-print color("white"), "[1] Bing Dorker     |> Here any  Country t7eb  \n";
+print color("green"), "[1] Bing Dorker     |> Here any  Country t7eb  \n";
 print color("red"), "[2] Bing Dorker    |> Here I Will Grab Using Ur Dork World Wide Country Websites\n";
 print color("yellow"), "[3] Mass Site Grab |> By Ip or Websites List\n";
 print color("red"), "[4] Mass Site Grab |> Range Ip by Ip or Website list\n";
@@ -29,7 +29,7 @@ chomp $targett;
 if($targett eq '1')
 {
 print "[Here You Can Choose The Country Dork exp: inurl:.asp?id= site:co.il ]\n";
-print "Give Me Dork:";
+print "7ot Dork:";
 $dork=<STDIN>;
 chomp($dork);
 $dork=~s/ /+/g;
